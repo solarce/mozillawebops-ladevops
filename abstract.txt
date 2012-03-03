@@ -1,0 +1,7 @@
+* Webops and Deploying @ Mozilla
+
+Mozilla has numerous web applications in production, serving the needs
+of 450 million+ Firefox users. Brandon Burton, a web operations
+engineer at Mozilla will take us on a brief tour of how Mozilla does
+web operations, how we architecture our infrastructure, and how the
+web apps our deployed. 
