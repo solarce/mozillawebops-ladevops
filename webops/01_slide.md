@@ -1,6 +1,10 @@
+!SLIDE
+
 # IT and Web Operations
 
 * Mozilla IT is organized into a number of groups
+
+!SLIDE
 
 # Groups
 
@@ -10,10 +14,16 @@
  * NetOps
  * DCOps
 
+.notes a lot of the teams list above have been formalized as of the beginning of this year. Mozilla has seen tremendous growth in the user base and so also in the company in the last two years and so the formalizing of Mozilla IT into more distinct teams is a new, but natural outgrowth of the userbase and employee growth.
+
+!SLIDE
+
 # Systems
 
-* Systems is where I am and where the webops teams is
 * Systems is divided into teams
+* Systems is where the webops teams are 
+
+!SLIDE
 
 # Teams
 
@@ -24,25 +34,32 @@
  * Developer Services
  * Systems Tools
  
+!SLIDE
+
 # How we work
- 
-* Within the systems teams there is a lot of skill crossover
-* The SRE team is also able to do a lot of the day to day that Systems is *responsible* for
-* Teams try to focus on specific responsibilities, but know about shared services/processes
-* Systems group as a whole has a shared responsibility for service levels
+
+* SRE team is oncall
+* A lot of skill crossover 
+* Focus on specific responsibilities
+* Knowledge of shared services/processes
+* Systems  has a shared responsibility for service levels
 * No hard barriers
+
+!SLIDE
 
 # Web Ops Responsibilities
 
 * Existing webapp deployments
 * New webapp setups
-* Infrastructure services
+* Webapp Infrastructure services
+
+!SLIDE
 
 # Infrastructure services
 
  * Apache (of course)
- * RabbitMQ/Celery
+ * Celery / RabbitMQ
  * Sphinx
  * ElasticSearch
- * Redis/Memcache
+ * Memcache / Redis
  
