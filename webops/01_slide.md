@@ -55,7 +55,7 @@
 
 !SLIDE
 
-# Services
+# "Stack"
 
  * Apache (of course)
  * Celery / RabbitMQ
