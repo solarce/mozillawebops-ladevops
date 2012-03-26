@@ -55,7 +55,7 @@
 
 !SLIDE
 
-# Infrastructure services
+# Services
 
  * Apache (of course)
  * Celery / RabbitMQ
