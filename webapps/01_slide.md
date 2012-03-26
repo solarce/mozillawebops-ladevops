@@ -129,7 +129,7 @@
 # What's next?
 
 * continuous delivery
-* internal paas
+* internal iaas/paas
 * vagrant
 * community it
 
