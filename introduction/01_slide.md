@@ -25,9 +25,8 @@
 * Firefox - great browser or greatest browser?
 * Open Web - the web is people
 * Open Source
-
-[http://www.github.com/mozilla/](http://www.github.com/mozilla/)
-[http://viewvc.svn.mozilla.org/vc/](http://viewvc.svn.mozilla.org/vc/)
+ * [http://www.github.com/mozilla/](http://www.github.com/mozilla/)
+ * [http://viewvc.svn.mozilla.org/vc/](http://viewvc.svn.mozilla.org/vc/)
 
 !SLIDE
 
