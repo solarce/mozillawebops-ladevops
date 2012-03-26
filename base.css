@@ -3,7 +3,7 @@ div.content {
     margin-top: -32px !important;
 }
 
-#preso, .slide {
+.slide {
     background:url(2010-SM-firefox.png);
     color: #333;
     font-family: Rockwell, Helvetica, Arial, sans-serif;
