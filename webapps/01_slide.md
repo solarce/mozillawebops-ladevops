@@ -8,12 +8,20 @@
 
 !SLIDE
 
-# Other Services
+# Services
 
 * Caching: Memcache
 * Search: Sphinx (older) / ElasticSearch (newer)
 * Workers: Celery queues, feed by RabbitMQ
 * Some Redis as a lightweight database
+
+!SLIDE
+
+# Monitoring
+
+* System Performance: Ganglia
+* Application Performance: Graphite/StatsD
+* Alerting: Nagios
 
 !SLIDE
 
@@ -157,6 +165,12 @@ Project Petri is a 1-year experiment in providing a Platform-as-a-service (PaaS)
 * CloudFoundry
 * Stackato
 * RedHat OpenShift
+
+!SLIDE
+
+# Going to build a proof of concept with
+## Eucalyptus 3.0
+## Cloud Foundry
  
 !SLIDE
 
