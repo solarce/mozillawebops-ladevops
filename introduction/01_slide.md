@@ -1,6 +1,7 @@
 !SLIDE
 
-# Webops and Deploying @ Mozilla
+# Webops and Deploying 
+# @ Mozilla
 
 <center>
 3000 slides in 30 minutes
@@ -23,16 +24,19 @@
 # Who is Mozilla?
 
 * Firefox - great browser or greatest browser?
+
 * Open Web - the web is people
+
 * Open Source
- * [http://www.github.com/mozilla/](http://www.github.com/mozilla/)
- * [http://viewvc.svn.mozilla.org/vc/](http://viewvc.svn.mozilla.org/vc/)
+
+### [http://www.github.com/mozilla/](http://www.github.com/mozilla/)
+### [http://viewvc.svn.mozilla.org/vc/](http://viewvc.svn.mozilla.org/vc/)
 
 !SLIDE
 
 # What I'll cover
 
-* A little bit about how Mozilla does IT and web operations
-* A little bit about how we deploy web apps and what our goals for
-  improving this in 2012 and beyond are
+* How Mozilla does IT and web operations
+* How we deploy web apps
+* Goals for improving deploys/ops in 2012 and beyond
 
