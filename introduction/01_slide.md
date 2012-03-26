@@ -1,7 +1,7 @@
 !SLIDE
 
-# Webops and Deploying 
-# @ Mozilla
+# Webops and 
+# Deploying @ Mozilla
 
 <center>
 3000 slides in 30 minutes

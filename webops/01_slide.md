@@ -1,6 +1,6 @@
 !SLIDE
 
-# IT and Web Operations
+# IT and Web Ops
 
 * Mozilla IT is organized into a number of groups
 
@@ -47,7 +47,7 @@
 
 !SLIDE
 
-# Web Ops Responsibilities
+# Responsibilities
 
 * Existing webapp deployments
 * New webapp setups

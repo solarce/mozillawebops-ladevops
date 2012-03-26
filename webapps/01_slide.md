@@ -48,13 +48,13 @@
 
 !SLIDE
 
-# Example Architecture
+# Architecture
 
 ![arch](web_cluster_physical_layout.png)
 
 !SLIDE
 
-# How a deploy works
+# deploying
 
 * app code is in ```/data/{dev|stage|prod}/src/site/code```
 * since most our apps are open source, certain settings file aren't in
@@ -77,7 +77,7 @@
 
 !SLIDE smaller
 
-# update script run through
+# update script runs
 
 * git pull
 * update vendor submodule
@@ -110,7 +110,7 @@
  
 !SLIDE
 
-# some of the tools we've written
+# tools
 
 * [Commander](https://github.com/oremj/commander) - fabric like
 * [Chief](https://github.com/oremj/chief) - simple web ui for Commander
@@ -126,7 +126,8 @@
 
 !SLIDE
 
-# continuous delivery?
+# continuous 
+# delivery?
 
 * driven by jenkins?
 * unit/integration tests as part of deploy
@@ -134,11 +135,11 @@
 
 !SLIDE
 
-# Internal IaaS/PaaS?
+# IaaS/PaaS?
 
-https://wiki.mozilla.org/Petri
+[Project Petri](https://wiki.mozilla.org/Petri)
 
-Project Petri is a 1-year experiment in providing a Platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS) offering
+### Project Petri is a 1-year experiment in providing a Platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS) offering
 
 !SLIDE
 
@@ -159,7 +160,7 @@ Project Petri is a 1-year experiment in providing a Platform-as-a-service (PaaS)
 
 !SLIDE
 
-# Going to build a proof of concept with
+# PoC
 ## Eucalyptus 3.0
 ## Cloud Foundry
  
@@ -175,7 +176,7 @@ Project Petri is a 1-year experiment in providing a Platform-as-a-service (PaaS)
 
 # Community IT
 
- * http://blog.mozilla.com/mrz/2012/01/30/mozilla-it-growing-community/
+ * [Growing Mozilla Community IT](http://blog.mozilla.com/mrz/2012/01/30/mozilla-it-growing-community/)
  * Opening up some of our internal configs, code, etc
 
 !SLIDE

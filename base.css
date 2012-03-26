@@ -1,8 +1,7 @@
-body { text-align: left; }
+div.content {
+      margin-top: -32px !important;
+    }
 
-.content {
-  text-align: left;
-}
 
 .slide {
     background:url(2010-SM-firefox.png);
@@ -19,14 +18,6 @@ h1,h2, h3 {
 a:link {color:#f7681a;}
 a:visited {color:#f7681a;}
 a:hover {color:#2e2f2c;}
-
-.bullets ol,dl,ul {
-     text-align: left;
-     list-style-type: disc;
-     font-family: Rockwell, Helvetica, Arial, sans-ser
-     color: #333;
-     padding: 0px;
-}
 
 .code {
   text-align: left;
