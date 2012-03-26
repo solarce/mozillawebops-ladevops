@@ -1,6 +1,7 @@
-/* Get around style override for margin-top*/
-div.content {
-    margin-top: -32px !important;
+body { text-align: left; }
+
+.content {
+  text-align: left;
 }
 
 .slide {
@@ -8,4 +9,27 @@ div.content {
     color: #333;
     font-family: Rockwell, Helvetica, Arial, sans-serif;
     text-align: left;
+}
+
+h1,h2, h3 {
+   color: #333;
+   font-family: Rockwell;
+}
+
+a:link {color:#f7681a;}
+a:visited {color:#f7681a;}
+a:hover {color:#2e2f2c;}
+
+.bullets ol,dl,ul {
+     text-align: left;
+     list-style-type: disc;
+     font-family: Rockwell, Helvetica, Arial, sans-ser
+     color: #333;
+     padding: 0px;
+}
+
+.code {
+  text-align: left;
+  font-family: Menlo, monospace;
+  font-size: 0.6em;
 }

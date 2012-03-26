@@ -90,32 +90,23 @@
 !SLIDE code
 
 # Example Deploy output
-
-(bburton@genericadm) $ sudo -i /data/genericrhel6-dev/deploy caseconductor-dev
-[localhost] running: /usr/bin/rsync -aq --include '.gitkeep' --exclude '.git*' --exclude '.hg*' --delete /data/genericrhel6-dev/src/caseconductor-dev./ /data/genericrhel6-dev/www/caseconductor-dev./
-[localhost] finished: /usr/bin/rsync -aq --include '.gitkeep' --exclude '.git*' --exclude '.hg*' --delete /data/genericrhel6-dev/src/caseconductor-dev./ /data/genericrhel6-dev/www/caseconductor-dev./ (2.475s)
-[localhost] running: cd /data/genericrhel6-dev/www && /usr/bin/git add .; /usr/bin/git commit -a -m 'deploy'
-[localhost] finished: cd /data/genericrhel6-dev/www && /usr/bin/git add .; /usr/bin/git commit -a -m 'deploy' (6.926s)
-[localhost] out: # On branch master
-[localhost] out: nothing to commit (working directory clean)
-[generic1.dev.seamicro.phx1.mozilla.com] running: /data/bin/update-www.sh caseconductor-dev.
-[generic2.dev.seamicro.phx1.mozilla.com] running: /data/bin/update-www.sh caseconductor-dev.
-[generic2.dev.seamicro.phx1.mozilla.com] finished: /data/bin/update-www.sh caseconductor-dev. (14.283s)
-[generic2.dev.seamicro.phx1.mozilla.com] out: Not removing caseconductor-dev./caseconductor/staticcache/
-[generic2.dev.seamicro.phx1.mozilla.com] out: Not removing mozillians-dev./mozillians/apps/larper/
-[generic2.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/annotatedsummary/
-[generic2.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/excerpt/
-[generic2.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/parsedlog/
-[generic2.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/rawlog/
-[generic1.dev.seamicro.phx1.mozilla.com] finished: /data/bin/update-www.sh caseconductor-dev. (14.718s)
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing caseconductor-dev./caseconductor/staticcache/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing mozillians-dev./mozillians/apps/browserid/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing sheriff-dev./sheriff/apps/commons/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing sheriff-dev./sheriff/vendor/src/django-mozilla-product-details/product_details/json/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/annotatedsummary/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/excerpt/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/parsedlog/
-[generic1.dev.seamicro.phx1.mozilla.com] out: Not removing tbpl-dev./tbpl/cache/rawlog/
+```(bburton@genericadm) $ sudo -i /data/genericrhel6-dev/deploy caseconductor-dev```
+```[localhost] running: /usr/bin/rsync -aq --include '.gitkeep' --exclude '.git*' --exclude ```
+``` '.hg*' --delete /data/genericrhel6-dev/src/caseconductor-dev./ ```
+``` /data/genericrhel6-dev/www/caseconductor-dev./```
+```[localhost] finished: /usr/bin/rsync -aq --include '.gitkeep' --exclude '.git*' --exclude ```
+``` '.hg*' --delete /data/genericrhel6-dev/src/caseconductor-dev./ ```
+```/data/genericrhel6-dev/www/caseconductor-dev./ (2.475s)```
+```[localhost] running: cd /data/genericrhel6-dev/www && /usr/bin/git add .; ```
+``` /usr/bin/git commit -a -m 'deploy'```
+```[localhost] finished: cd /data/genericrhel6-dev/www && /usr/bin/git add .; ```
+``` /usr/bin/git commit -a -m 'deploy' (6.926s)```
+```[localhost] out: # On branch master```
+```[localhost] out: nothing to commit (working directory clean)```
+```[generic1.dev.seamicro.phx1.mozilla.com] running: /data/bin/update-www.sh caseconductor-dev.```
+```[generic2.dev.seamicro.phx1.mozilla.com] running: /data/bin/update-www.sh caseconductor-dev.```
+```[generic2.dev.seamicro.phx1.mozilla.com] finished: /data/bin/update-www.sh caseconductor-dev. (14.283s)```
+```[generic1.dev.seamicro.phx1.mozilla.com] finished: /data/bin/update-www.sh caseconductor-dev. (14.718s)```
  
 !SLIDE
 
