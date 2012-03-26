@@ -75,23 +75,23 @@
 * each gets an update script written for it
 * most of the scripts are the same
 
-!SLIDE
+!SLIDE smaller
 
 # update script run through
 
- * git pull
- * update vendor submodule
- * any admin tasks, like compressing assets, database migrations
- * code is rsync'd to /data/{dev|stage|prod}/www/ , rsync strips out .git, .hg, etc
- * once code is rsync, it's checked into an internal git repo to keep revision of non-public files
- * deploy script (fabric code) is called which kicks off a pull on each web server
- * once all the web server pulls have kicked off, script exits
+* git pull
+* update vendor submodule
+* any admin tasks, like compressing assets, database migrations
+* code is rsync'd to /data/{dev|stage|prod}/www/ , rsync strips out .git, .hg, etc
+* once code is rsync, it's checked into an internal git repo to keep revision of non-public files
+* deploy script (fabric code) is called which kicks off a pull on each web server
+* once all the web server pulls have kicked off, script exits
  
 !SLIDE code
 
 # Example Deploy output
 
-[bburton@genericadm.private.phx1 ~]$ sudo -i /data/genericrhel6-dev/deploy caseconductor-dev
+(bburton@genericadm) $ sudo -i /data/genericrhel6-dev/deploy caseconductor-dev
 [localhost] running: /usr/bin/rsync -aq --include '.gitkeep' --exclude '.git*' --exclude '.hg*' --delete /data/genericrhel6-dev/src/caseconductor-dev./ /data/genericrhel6-dev/www/caseconductor-dev./
 [localhost] finished: /usr/bin/rsync -aq --include '.gitkeep' --exclude '.git*' --exclude '.hg*' --delete /data/genericrhel6-dev/src/caseconductor-dev./ /data/genericrhel6-dev/www/caseconductor-dev./ (2.475s)
 [localhost] running: cd /data/genericrhel6-dev/www && /usr/bin/git add .; /usr/bin/git commit -a -m 'deploy'
