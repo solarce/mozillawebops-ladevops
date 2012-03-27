@@ -25,6 +25,13 @@
 
 !SLIDE
 
+# Config Mgmt
+* Puppet
+* puppetmaster in each dc
+* puppet runs from cron
+
+!SLIDE
+
 # Infrastructure
 
 * dev/stage/prod
