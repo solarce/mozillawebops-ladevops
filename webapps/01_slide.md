@@ -197,3 +197,13 @@
 !SLIDE
 
 # Questions?
+
+!SLIDE
+
+# slides
+
+slides up on
+ 
+[github.com](https://github.com/solarce/mozillawebops-ladevops)
+
+[bburtonmozilla.heroku.com](http://bburtonmozilla.heroku.com)

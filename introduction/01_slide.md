@@ -14,8 +14,16 @@
 # Who Am I?
 
 * Brandon Burton
+
 * Web Operations Engineer
+
 * Mozilla
+
+* bburton@mozilla.com
+
+* [@solarce](http://www.twitter.com/solarce)
+
+* [solarce.org](http://www.solarce.org)
 
 .notes yup
 
