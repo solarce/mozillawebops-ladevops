@@ -1,6 +1,6 @@
 {
   "name": "Deploying @ Mozilla",
-  "description": "An intro to how we deploy webapps and do webops @ Mozilla",
+  "description": "An  intro to how we deploy webapps and do webops @ Mozilla",
   "sections": [
     {"section":"introduction"},
     {"section":"webops"},
